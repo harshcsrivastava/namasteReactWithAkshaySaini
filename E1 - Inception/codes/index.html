@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="color:white; background-color: #313131;">
+
+    <div>Top Heading</div>
+    <div id="root">Data that will be Overwritten</div>
+    <div>Bottom Heading</div>
+
+
+    <!-- <script>
+        const h = document.createElement("h1");
+        h.innerHTML = "Hey World!!"
+        document.querySelector('#root').appendChild(h)
+    </script>
+    Through JS -->
+    <!-- 
+        CDN - Content Delivery Network
+        crossorigin - a attribute in html tag like script, img to tell browser that we are requsting resources from outside or load resources from external sources
+     -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    
+    <script src="./app.js"></script>
+    <!-- Order Matters, bcz declae hua hai    -->
+</body>
+</html>
