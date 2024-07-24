@@ -57,7 +57,7 @@ const Title = () => {
 // to put react element in Component or in React Element  add it in Curly{},
 const subTitle = <h3>Sub-Heading</h3>;
 
-number = 100;
+number = 100; 
 const HeadingComponent2 = () => (
   <div className="container">
     <Title />
