@@ -1,8 +1,44 @@
-.header{
-    display: flex;
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 
-    & .logo{
-        width: 452px;
-   
+  & .model {
+    width: 200px;
+  }
+  & .nav-items > ul {
+    display: flex;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-around;
+  }
+}
+
+.body {
+  width: 100%;
+
+  & .btn{
+    margin: 15px;
+    padding: 10px;
+  }
+
+  & .RestaurantCont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    & .rest-card {
+      width: 300px;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
+
+    & .rest-card:hover {
+      border: 2px solid wheat;
+      box-shadow: 0px 0px 25px white;
+    }
+  }
 }
